@@ -4,44 +4,42 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Restaurant menu</title>
 		<link
 			rel="stylesheet"
 			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
 			crossorigin="anonymous"
 		/>
-		<title>Restaurant menu</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<section class="menu">
-		<!-- cart -->
-			
+			<!-- cart -->
 			<div class="cart-total-price">
-			
 				<div class="quantity"></div>
 				<div class="myCart">
 					<i class="far fa-shopping-cart"></i>
-					<ul class="inCart"></ul>		
+					<ul class="inCart"></ul>
 				</div>
-				<button class="total" style="display: none;"></button>
+				<button class="total" style="display: none"></button>
 			</div>
-			
-
 			<!-- title -->
 			<div class="title">
 				<h2>our menu</h2>
 				<div class="underline"></div>
 			</div>
-				<!-- search -->
+
 			<div class="form">
 				<div class="searching">
-					<input class="search" type="search" placeholder="Search ..." />
+					<input class="search" type="search" placeholder=" search..." />
+					<!--<button class="search-btn">Search</button>-->
 				</div>
-				<div class="search-price">
-					<input id="min" type="text" placeholder="$ Min" value="" />
-					<input id="max" type="text" placeholder="$ Max" value="" />
-				</div>
+			</div>
+			<div class="minmax">
+				<input class="min" placeholder="$min" type="text" />
+				<input class="max" placeholder="$max" type="text" />
+				<button class="minmaxxbtn" type="submit">Submit</button>
 			</div>
 			<!-- filter buttons -->
 			<div class="btn-container">
@@ -56,7 +54,6 @@
 				</button>
 			</div>
 			<!-- menu items -->
-
 			<div class="section-center">
 				<!-- <article class="menu-item">
           <img src="./images/item-1.jpeg" class="photo" alt="buttermilk" />
@@ -69,10 +66,8 @@
               I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock
               freegan copper mug whatever cold-pressed
             </p>
-          </div>-->
-				<!-- <div class="a-cart"><button  class="cart" onclick="addCart()">Add to cart</button></div>
-        </article>   -->
-				<!-- <div class="a-cart"><button  class="cart" onclick="addCart()">Add to cart</button></div> -->
+          </div>
+        </article> -->
 			</div>
 		</section>
 		<script src="script.js"></script>
